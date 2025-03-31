@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>SOUTHFOOT</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-white text-[13px] leading-snug">
+<header class="border-b border-gray-300">
+  <div class="max-w-screen-xl mx-auto flex justify-between items-center py-2 gap-x-4">
+    <div class="text-4xl font-light flex flex-col text-center border-4 px-2 py-4">SOUTHFOOT<span class="text-xs">-International online webstore-</span></div>
+    <div class="flex-1 text-center">
+      <img src="img/h-banner.jpg" class="inline-block" />
+    </div>
+    <div class="flex items-center space-x-2">
+      <input type="text" placeholder="PASS" class="border px-1 py-0.5 text-xs w-16" />
+      <button class="border bg-gray-100 px-2 py-0.5 text-xs">LOG IN</button>
+      <button class="border bg-gray-100 px-2 py-0.5 text-xs">JOIN MEMBER</button>
+    </div>
+  </div>
+  <nav class="bg-white border-t border-b text-sm">
+    <div class="max-w-screen-xl mx-auto flex justify-center">
+      <a href="#" class="px-4 py-2 border-r">shoes</a>
+      <a href="#" class="px-4 py-2 border-r">apparel</a>
+      <a href="#" class="px-4 py-2 border-r">accessories</a>
+      <a href="#" class="px-4 py-2 border-r">eyewear</a>
+      <a href="#" class="px-4 py-2 border-r">watch</a>
+      <a href="#" class="px-4 py-2">outlet</a>
+    </div>
+  </nav>
+</header>
+<main class="max-w-screen-xl mx-auto flex mt-1 pt-4">
+  <aside class="w-48 text-white text-2xl font-bold leading-5 text-left flex flex-col bg-blue-800">
+    <div class="bg-blue-800 p-3 border-b-8 border-l-8 border-opacity-60 border-white h-36 flex items-center">NEW<br/>PRODUCT</div>
+    <div class="bg-blue-800 p-3 border-b-8 border-l-8 border-opacity-60 border-white h-36 flex items-center">GOODS<br/>COMING<br/>SOON</div>
+    <div class="bg-blue-800 p-3 border-b-8 border-l-8 border-opacity-60 border-white h-36 flex items-center">SOUTHFOOT<br/>COMMUNITY</div>
+    <div class="bg-blue-800 p-3 border-b-8 border-l-8 border-opacity-60 border-white h-36 flex items-center">GROUP<br/>PURCHASE</div>
+    <div class="bg-blue-800 p-3 border-b-8 border-l-8 border-opacity-60 border-white h-36 flex items-center flex-col justify-center gap-y-2">
+      <p class="text-xs leading-tight">international online store</p>
+      <div class="text-sm font-bold bg-white text-blue-800 p-4 rounded-full">SF</div>
+      <a href="#" class="text-xs underline">www.southfoot.com</a>
+    </div>
+  </aside>
+
+  <section class="flex-1 px-6">
+    <h2 class="bg-red-700 text-white text-2xl border-4 border-red-400 font-bold px-4 py-1 inline-block mb-4"><span class="text-black">NEW</span> PRODUCT</h2>
+    <div class="grid grid-cols-2 gap-x-8 gap-y-10">
+      <div class="flex gap-3">
+        <img src="img/pd-1.jpg" class="w-44 h-auto" />
+        <div>
+          <p>CODE:102006</p>
+          <p>MODEL:Air Max 95</p>
+          <p>COLOR:Blue/White</p>
+          <p>SIZE:<span class="text-red-600 font-bold"> SOLD OUT</span></p>
+          <p>PRICE:<span class="text-red-600 font-bold"> SOLD OUT</span></p>
+        </div>
+      </div>
+      <div class="flex gap-3">
+        <img src="img/pd-2.jpg" class="w-44 h-auto" />
+        <div>
+          <p>CODE:102081</p>
+          <p>MODEL:Air Max 97</p>
+          <p>COLOR:White/Riviera</p>
+          <p>SIZE:<span class="text-red-600 font-bold"> SOLD OUT</span></p>
+          <p>PRICE:<span class="text-red-600 font-bold"> SOLD OUT</span></p>
+        </div>
+      </div>
+      <div class="flex gap-3">
+        <img src="img/pd-3.jpg" class="w-44 h-auto" />
+        <div>
+          <p>CODE: 102033</p>
+          <p>MODEL: Air Max 95</p>
+          <p>COLOR:White/Red/Black</p>
+          <p>SIZE:<span class="text-red-600 font-bold"> SOLD OUT</span></p>
+          <p>PRICE:<span class="text-red-600 font-bold"> SOLD OUT</span></p>
+        </div>
+      </div>
+      <div class="flex gap-3">
+        <img src="img/pd-4.jpg" class="w-44 h-auto" />
+        <div>
+          <p>CODE: 102007</p>
+          <p>MODEL:Air Max 95</p>
+          <p>COLOR: white/Yellow</p>
+          <p>SIZE: 8 , 9, 9.5</p>
+          <p>PRICE: 210. 000</p>
+        </div>
+      </div>
+      <div class="flex gap-3">
+        <img src="img/pd-5.jpg" class="w-44 h-auto" />
+        <div>
+          <p>CODE: 301005</p>
+          <p>MODEL:Messenger Bag</p>
+          <p>COLOR: Black</p>
+          <p>SIZE: L</p>
+          <p>PRICE: <span class="line-through">152.000C</span><span class="text-red-600 font-bold">117.000</span></p>
+        </div>
+      </div>
+      <div class="flex gap-3">
+        <img src="img/pd-6.jpg" class="w-44 h-auto" />
+        <div>
+          <p>CODE:301003</p>
+          <p>MODEL:wool Tote Bag</p>
+          <p>COLOR:Grey</p>
+          <p>SIZE: M</p>
+          <p>PRICE: <span class="line-through">124.000C</span><span class="text-red-600 font-bold">89.000</span></p>
+        </div>
+      </div>
+      <div class="flex gap-3">
+        <img src="img/pd-7.jpg" class="w-44 h-auto" />
+        <div>
+          <p>CODE:201001</p>
+          <p>MODEL:Wool Sweater</p>
+          <p>COLOR:Navy</p>
+          <p>SIZE: M, L</p>
+          <p>PRICE: <span class="line-through">165.000C</span><span class="text-red-600 font-bold">100.000</span></p>
+        </div>
+      </div>
+      <div class="flex gap-3">
+        <img src="img/pd-8.jpg" class="w-44 h-auto" />
+        <div>
+          <p>CODE:501013</p>
+          <p>MODEL:Alba Web</p>
+          <p>COLOR:Violet</p>
+          <p>SIZE: X</p>
+          <p>PRICE:230.000</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <aside class="w-44 hidden xl:block text-center">
+    <img src="img/r-banner.jpg" alt="hot sale" class="mx-auto h-full w-full" />
+  </aside>
+</main>
+
+<footer class="mt-8 border-t-4 border-b-4 text-center text-xs">
+  <nav class="flex justify-center space-x-4 py-2">
+    <a href="#">SF NEWS</a>
+    <a href="#">SIZE CHART</a>
+    <a href="#">FAQS</a>
+    <a href="#" class="text-red-600 font-bold">ORDER FORM</a>
+    <a href="#">BULLETIN BOARD</a>
+    <a href="#">SITE MAP</a>
+    <a href="#">CONTACT US</a>
+  </nav>
+</footer>
+</body>
+</html>
