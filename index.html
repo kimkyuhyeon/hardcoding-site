@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -5,172 +6,187 @@
   <title>SOUTHFOOT</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-    }
+    body { background: white; color: black; margin: 0; font-family: '굴림', sans-serif; }
+    .product td { vertical-align: top; padding: 4px; }
+    .product p { margin: 0; font-size: 8pt; line-height: 12px; }
   </style>
 </head>
-<body class="bg-white text-[13px] leading-snug mx-2">
-<header class="border-b border-gray-300">
-  <div class="max-w-screen-xl mx-auto flex justify-between items-center py-2 gap-x-1">
-    <div class="border-4 px-2 py-10 h-full">
-      <img src="img/main-logo.jpg" class="xl:h-16 h-8">
-    </div>
-    <div class="flex-1 text-center relative">
-      <img src="img/header-banner-1.jpg" class="inline-block" />
-      <div class="absolute bottom-0 grid grid-cols-6 w-full text-center bg-white xl:font-bold font-normal xl:text-lg text-xs">
-        <a href="#" class="bg-gradient-to-b from-gray-300 to-black my-0.5 flex flex-col">
-          <div class="bg-white m-0.5 leading-6">
-            shoes<hr class="h-4 bg-black m-0.5"/>
-          </div>
+<body class="flex">
+<table width="780" height="615" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="2" height="105">
+      <table width="780" height="105">
+        <tr>
+          <td width="177" rowspan="2">
+            <img src="img/logo.gif" alt="logo-video" class="h-full">
+          </td>
+          <td>
+            <img src="img/top-banner.jpg" width="468" height="60">
+          </td>
+          <td width="135" rowspan="2" class="px-1">
+            <a href="event.html"><img src="img/login_pw.gif" class="m-auto"></a>
+            <a href="event.html"><img src="img/login.gif" class="m-auto"></a>
+            <a href="event.html"><img src="img/join.gif" class="m-auto"></a>
+            <a href="event.html"><img src="img/password.gif" class="m-auto"></a>
+          </td>
+        </tr>
+        <tr>
+          <td class="flex">
+            <a href="#"><img src="img/shoes.gif" width="78" height="30"></a>
+            <a href="#"><img src="img/apparel.gif" width="78" height="30"></a>
+            <a href="#"><img src="img/accessories.gif" width="78" height="30"></a>
+            <a href="#"><img src="img/eyewear.gif" width="78" height="30"></a>
+            <a href="#"><img src="img/watch.gif" width="78" height="30"></a>
+            <a href="#"><img src="img/outlet.gif" width="78" height="30"></a>
+          </td>
+        </tr>
+        <td width="645" height="15" colspan="2">
+          <p><img src="img/bar.gif" width="645" height="15" border="0"></p>
+        </td>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td width="150" valign="top" class="side">
+      <a href="#"><img src="img/newproduct.gif" width="150" height="103"></a>
+      <a href="#"><img src="img/coming.gif" width="150" height="104"></a>
+      <a href="#"><img src="img/gallery.gif" width="150" height="104"></a>
+      <a href="#"><img src="img/group.gif" width="150" height="104"></a>
+      <a href="#"><img src="img/bottomlogo.gif" width="150" height="70"></a>
+    </td>
+    <td width="630" valign="top">
+      <table class="product flex flex-col px-4 pt-2" width="100%">
+        <tr>
+          <td colspan="4"><img src="img/new.gif" width="250" height="35"></td>
+        </tr>
+        <tr class="grid grid-cols-2 pb-2">
+          <td class="flex items-center gap-x-2">
+            <a href="event.html"><img src="img/pdImage-1.jpg" width="120" height="90"></a>
+            <div>
+              <p>CODE: 605097-441</p>
+              <p>MODEL: AIR MAX 95</p>
+              <p>COLOR: DORAEMON</p>
+              <p>SIZE: <span class="font-bold text-red-500">SOLD OUT</span></p>
+              <p>PRICE: <span class="font-bold text-red-500">SOLD OUT</span></p>
+            </div>
+          </td>
+          <td class="flex items-center gap-x-2">
+            <a href="event.html"><img src="img/pdImage-2.jpg" width="120" height="90"></a>
+            <div>
+              <p>CODE: 105052-311</p>
+              <p>MODEL: AIR MAX 95</p>
+              <p>COLOR: RYOKO</p>
+              <p>SIZE: <span class="font-bold text-red-500">SOLD OUT</span></p>
+              <p>PRICE: <span class="font-bold text-red-500">SOLD OUT</span></p>
+            </div>
+          </td>
+        </tr>
+        <tr class="grid grid-cols-2 pb-2">
+          <td class="flex items-center gap-x-2">
+            <a href="event.html"><img src="img/pdImage-3.jpg" width="120" height="90"></a>
+            <div>
+              <p>CODE: 104050-161</p>
+              <p>MODEL: AIR MAX 95</p>
+              <p>COLOR: WHITE/RED/BLACK/MESH</p>
+              <p>SIZE: <span class="font-bold text-red-500">SOLD OUT</span></p>
+              <p>PRICE: <span class="font-bold text-red-500">SOLD OUT</span></p>
+            </div>
+          </td>
+          <td class="flex items-center gap-x-2">
+            <a href="event.html"><img src="img/pdImage-4.jpg" width="120" height="90"></a>
+            <div>
+              <p>CODE: 307272-171</p>
+              <p>MODEL: AIR MAX 95</p>
+              <p>COLOR: JUVENTUS</p>
+              <p>SIZE: <span class="font-bold text-red-500">SOLD OUT</span></p>
+              <p>PRICE: <span class="font-bold text-red-500">SOLD OUT</span></p>
+            </div>
+          </td>
+        </tr>
+        <tr class="grid grid-cols-2 pb-2">
+          <td class="flex items-center gap-x-2">
+            <a href="event.html"><img src="img/pdImage-5.jpg" width="120" height="90"></a>
+            <div>
+              <p>CODE: 313101-151</p>
+              <p>MODEL: AIR MAX 95</p>
+              <p>COLOR: PURPLE/MESH</p>
+              <p>SIZE: <span class="font-bold text-red-500">SOLD OUT</span></p>
+              <p>PRICE: <span class="font-bold text-red-500">SOLD OUT</span></p>
+            </div>
+          </td>
+          <td class="flex items-center gap-x-2">
+            <a href="event.html"><img src="img/pdImage-6.jpg" width="120" height="90"></a>
+            <div>
+              <p>CODE: 105052-152</p>
+              <p>MODEL: AIR MAX 95</p>
+              <p>COLOR: ULTRAMARINE</p>
+              <p>SIZE: <span class="font-bold text-red-500">SOLD OUT</span></p>
+              <p>PRICE: <span class="font-bold text-red-500">SOLD OUT</span></p>
+            </div>
+          </td>
+        </tr>
+        <tr class="grid grid-cols-2 pb-2">
+          <td class="flex items-center gap-x-2">
+            <a href="event.html"><img src="img/pdImage-7.jpg" width="120" height="90"></a>
+            <div>
+              <p>CODE: 104050-132</p>
+              <p>MODEL: AIR MAX 95</p>
+              <p>COLOR: EMERALD</p>
+              <p>SIZE: <span class="font-bold text-red-500">SOLD OUT</span></p>
+              <p>PRICE: <span class="font-bold text-red-500">SOLD OUT</span></p>
+            </div>
+          </td>
+          <td class="flex items-center gap-x-2">
+            <a href="event.html"><img src="img/pdImage-8.jpg" width="120" height="90"></a>
+            <div>
+              <p>CODE: WO1999-001</p>
+              <p>MODEL: AIR MAX 95</p>
+              <p>COLOR: UNIFORM</p>
+              <p>SIZE: <span class="font-bold text-red-500">SOLD OUT</span></p>
+              <p>PRICE: <span class="font-bold text-red-500">SOLD OUT</span></p>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" width="780" height="25">
+      <p class="flex">
+        <!-- 좌측 메뉴 이미지 -->
+        <img src="img/dmenuf.gif" width="28" height="25" border="0">
+        <!-- 링크 목록 -->
+        <a href="event.html">
+          <img src="img/sfnews.gif" width="90" height="25" border="0">
         </a>
-        <a href="#" class="bg-gradient-to-b from-gray-300 to-black my-0.5 flex flex-col">
-          <div class="bg-white m-0.5 leading-6">
-            apparel<hr class="h-4 bg-black m-0.5"/>
-          </div>
+        <a href="event.html">
+          <img src="img/sizechart.gif" width="105" height="25" border="0">
         </a>
-        <a href="#" class="bg-gradient-to-b from-gray-300 to-black my-0.5 flex flex-col">
-          <div class="bg-white m-0.5 leading-6">
-            accessories<hr class="h-4 bg-black m-0.5"/>
-          </div>
+        <a href="event.html">
+          <img src="img/faqs.gif" width="73" height="25" border="0">
         </a>
-        <a href="#" class="bg-gradient-to-b from-gray-300 to-black my-0.5 flex flex-col">
-          <div class="bg-white m-0.5 leading-6">
-            eyewear<hr class="h-4 bg-black m-0.5"/>
-          </div>
+        <a href="event.html">
+          <img src="img/orderform.gif" width="113" height="25" border="0">
         </a>
-        <a href="#" class="bg-gradient-to-b from-gray-300 to-black my-0.5 flex flex-col">
-          <div class="bg-white m-0.5 leading-6">
-            watch<hr class="h-4 bg-black m-0.5"/>
-          </div>
+        <a href="event.html">
+          <img src="img/bulletinboard.gif" width="129" height="25" border="0">
         </a>
-        <a href="#" class="bg-gradient-to-b from-gray-300 to-black my-0.5 flex flex-col">
-          <div class="bg-white m-0.5 leading-6">
-            outlet<hr class="h-4 bg-black m-0.5"/>
-          </div>
+        <a href="event.html">
+          <img src="img/sitemap.gif" width="94" height="25" border="0">
         </a>
-      </div>
-    </div>
-    <div class="flex items-center space-x-2 ml-4">
-      <input type="text" placeholder="PASS" class="border px-1 py-0.5 text-xs w-16" />
-      <button class="border bg-gray-100 px-2 py-0.5 text-xs">LOG IN</button>
-      <button class="border bg-gray-100 px-2 py-0.5 text-xs">JOIN MEMBER</button>
-    </div>
-  </div>
-</header>
-<main class="max-w-screen-xl mx-auto flex mt-1 pt-4">
-  <aside class="xl:w-48 text-white xl:text-2xl font-bold leading-5 text-left flex flex-col bg-blue-800">
-    <div class="bg-blue-800 p-3 border-b-8 border-l-8 border-opacity-60 border-white h-36 flex items-center">NEW<br/>PRODUCT</div>
-    <div class="bg-blue-800 p-3 border-b-8 border-l-8 border-opacity-60 border-white h-36 flex items-center">GOODS<br/>COMING<br/>SOON</div>
-    <div class="bg-blue-800 p-3 border-b-8 border-l-8 border-opacity-60 border-white h-36 flex items-center">SOUTHFOOT<br/>COMMUNITY</div>
-    <div class="bg-blue-800 p-3 border-b-8 border-l-8 border-opacity-60 border-white h-36 flex items-center">GROUP<br/>PURCHASE</div>
-    <div class="bg-blue-800 p-3 border-b-8 border-l-8 border-opacity-60 border-white h-36 flex items-center flex-col justify-center gap-y-2">
-      <p class="text-xs leading-tight">international<br/>online store</p>
-      <img src="img/logo-1.png" class="w-12 h-12">
-      <a href="#" class="text-xs underline">www.southfoot.co.kr</a>
-    </div>
-  </aside>
-
-  <section class="flex-1 px-6">
-    <h2 class="bg-red-700 text-white text-2xl border-4 border-red-400 font-bold px-4 py-1 inline-block mb-4"><span class="text-black">NEW</span> PRODUCT</h2>
-    <div class="grid grid-cols-2 gap-x-4 gap-y-10">
-      <div class="flex gap-3 items-center">
-        <a href="event.html"><img src="img/pdImage-1.jpg" class="w-44 h-auto" /></a>
-        <div class="xl:text-sm text-xs">
-          <p>CODE:102006</p>
-          <p>MODEL:Air Max 95</p>
-          <p>COLOR:Blue/White</p>
-          <p>SIZE:<span class="text-red-600 font-bold"> SOLD OUT</span></p>
-          <p>PRICE:<span class="text-red-600 font-bold"> SOLD OUT</span></p>
-        </div>
-      </div>
-      <div class="flex gap-3 items-center">
-        <a href="event.html"><img src="img/pdImage-2.jpg" class="w-44 h-auto" /></a>
-        <div class="xl:text-sm text-xs">
-          <p>CODE:102081</p>
-          <p>MODEL:Air Max 97</p>
-          <p>COLOR:White/Riviera</p>
-          <p>SIZE:<span class="text-red-600 font-bold"> SOLD OUT</span></p>
-          <p>PRICE:<span class="text-red-600 font-bold"> SOLD OUT</span></p>
-        </div>
-      </div>
-      <div class="flex gap-3 items-center">
-        <a href="event.html"><img src="img/pdImage-3.jpg" class="w-44 h-auto" /></a>
-        <div class="xl:text-sm text-xs">
-          <p>CODE: 102033</p>
-          <p>MODEL: Air Max 95</p>
-          <p>COLOR:White/Red/Black</p>
-          <p>SIZE:<span class="text-red-600 font-bold"> SOLD OUT</span></p>
-          <p>PRICE:<span class="text-red-600 font-bold"> SOLD OUT</span></p>
-        </div>
-      </div>
-      <div class="flex gap-3 items-center">
-        <a href="event.html"><img src="img/pdImage-4.jpg" class="w-44 h-auto" /></a>
-        <div class="xl:text-sm text-xs">
-          <p>CODE: 102007</p>
-          <p>MODEL:Air Max 95</p>
-          <p>COLOR: white/Yellow</p>
-          <p>SIZE: 8 , 9, 9.5</p>
-          <p>PRICE: 210. 000</p>
-        </div>
-      </div>
-      <div class="flex gap-3 items-center">
-        <a href="event.html"><img src="img/pdImage-5.jpg" class="w-44 h-auto" /></a>
-        <div class="xl:text-sm text-xs">
-          <p>CODE: 301005</p>
-          <p>MODEL:Messenger Bag</p>
-          <p>COLOR: Black</p>
-          <p>SIZE: L</p>
-          <p>PRICE: <span class="line-through">152.000C</span><span class="text-red-600 font-bold">117.000</span></p>
-        </div>
-      </div>
-      <div class="flex gap-3 items-center">
-        <a href="event.html"><img src="img/pdImage-6.jpg" class="w-44 h-auto" /></a>
-        <div class="xl:text-sm text-xs">
-          <p>CODE:301003</p>
-          <p>MODEL:wool Tote Bag</p>
-          <p>COLOR:Grey</p>
-          <p>SIZE: M</p>
-          <p>PRICE: <span class="line-through">124.000C</span><span class="text-red-600 font-bold">89.000</span></p>
-        </div>
-      </div>
-      <div class="flex gap-3 items-center">
-        <a href="event.html"><img src="img/pdImage-7.jpg" class="w-44 h-auto" /></a>
-        <div class="xl:text-sm text-xs">
-          <p>CODE:201001</p>
-          <p>MODEL:Wool Sweater</p>
-          <p>COLOR:Navy</p>
-          <p>SIZE: M, L</p>
-          <p>PRICE: <span class="line-through">165.000C</span><span class="text-red-600 font-bold">100.000</span></p>
-        </div>
-      </div>
-      <div class="flex gap-3 items-center">
-        <a href="event.html"><img src="img/pdImage-8.jpg" class="w-44 h-auto" /></a>
-        <div class="xl:text-sm text-xs">
-          <p>CODE:501013</p>
-          <p>MODEL:Alba Web</p>
-          <p>COLOR:Violet</p>
-          <p>SIZE: X</p>
-          <p>PRICE:230.000</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <aside class="xl:w-44 w-28 bg-black flex items-center">
-    <img src="img/worksout-x-nike.jpg" alt="hot sale" class="mx-auto object-cover" />
-  </aside>
-</main>
-
-<footer class="mt-8 border-t-4 border-b-4 text-center text-xs">
-  <nav class="flex justify-center space-x-4 py-2">
-    <a href="#">SF NEWS</a>
-    <a href="#">SIZE CHART</a>
-    <a href="#">FAQS</a>
-    <a href="#" class="text-red-600 font-bold">ORDER FORM</a>
-    <a href="#">BULLETIN BOARD</a>
-    <a href="#">SITE MAP</a>
-    <a href="#">CONTACT US</a>
-  </nav>
-</footer>
+        <a href="event.html">
+          <img src="img/contactus.gif" width="112" height="25" border="0">
+        </a>
+        <!-- 우측 메뉴 이미지 -->
+        <img src="img/dmenul.gif" width="36" height="25" border="0">
+      </p>
+    </td>
+  </tr>
+</table>
+<div>
+  <a href="https://www.worksout.co.kr" target="_blank">
+    <img src="img/worksout-x-nike.jpg" class="w-36 h-full">
+  </a>
+</div>
 </body>
 </html>
